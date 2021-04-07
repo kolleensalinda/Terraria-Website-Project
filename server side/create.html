@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <div class="container p-3 my-3 bg-success text-white">
+        <img src="../images/terraria%20logo.png" class="mx-auto d-block">
+        <div class="form-group">
+            <label for="usr">Username:</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <br>
+        <form>
+            <select name="class" class="custom-select" style="display: block; margin: auto">
+                <option selected>Class</option>
+                <option value="melee" style="background-color: red">Melee</option>
+                <option value="range" style="background-color: mediumseagreen">Range</option>
+                <option value="summoner" style="background-color: royalblue">Summoner</option>
+                <option value="mage" style="background-color: mediumpurple">Mage</option>
+            </select>
+        </form>
+        <br>
+        <button type="button" class="btn-light" value="sign-in-button" style="display: block; margin: auto">
+            Create account
+        </button>
+        <br>
+        <label style="text-align: center; display: block">Already have an account?</label>
+        <button type="button" class="btn btn-link" value="create-account-button" style="display: block; margin: auto; color: darkseagreen">
+            <a href="index.html">
+                Sign in
+            </a>
+        </button>
+    </div>
+</body>
+</html>
