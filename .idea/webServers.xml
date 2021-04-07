@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="60d11f25-3225-4a12-9634-33f0b9c0ca1b" name="terraria_vm" url="http://10.7.1.121:8087">
+        <fileTransfer rootFolder="/var/www/projects/terraria_site" accessType="SFTP" host="10.7.1.121" port="22" sshConfigId="f9f61729-bd04-4e0f-8d67-797dc9ee1379" sshConfig="xmz855@10.7.1.121:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
